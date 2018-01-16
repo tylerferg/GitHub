@@ -1,0 +1,7 @@
+body {
+  height: 200px;
+}
+
+.dropdown-toggle { 
+  cursor: pointer;
+}

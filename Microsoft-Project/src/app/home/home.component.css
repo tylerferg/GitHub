@@ -1,0 +1,51 @@
+
+.site-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2)), url(grocery.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: block;
+}
+
+nav {
+    font-family: 'Raleway' !important;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition: background-color 200ms linear;
+
+  }
+
+.text-box {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    position: absolute;
+    width: 82%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    padding: 10px;
+}
+
+
+.text-box h1 {
+    font-weight: 300;
+    font-family: 'Raleway';
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+
+}
+
+
+
+/* Carousel */
+
+.carousel-item {
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+}
